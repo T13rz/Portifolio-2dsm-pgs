@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Altier </title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="#" class="logo">[Seu Nome]</a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#curriculo">Currículo</a></li>
+            <li><a href="#projetos">Projetos API</a></li>
+            <li><a href="#certificados">Certificados</a></li>
+            <li><a href="#eventos">Eventos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="container">
+        <div>
+            <h1>Olá, sou Altier</h1>
+            <p>Estudante de Desenvolvimento</p>
+            <p>Desenvolvimento de Software Multiplataforma · 2º Semestre</p>
+            <a href="#contato" class="btn">Entre em contato</a>
+        </div>
+        <div class="hero-photo">
+            <img src="assets/img/icone/perfil.jpg" alt="Foto de [Seu Nome]">
+        </div>
+    </div>
+</section>
+
+<!-- SOBRE -->
+<section id="sobre">
+    <div class="container">
+        <h2>Sobre Mim</h2>
+        <div class="about-grid">
+
+            <div class="card">
+                <h3>Formação Atual</h3>
+                <p>
+                    <strong>Desenvolvimento de Software Multiplataforma</strong><br>
+                    Fatec Profº Jessen Vidal <br>
+                    2º Semestre · 2025 – 2028
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Objetivos Acadêmicos</h3>
+                <p>Conquistar maior aprimoramento técnico na área de desenvolvimento a fim de conseguir criar projetos de forma independente</p>
+            </div>
+
+            <div class="card">
+                <h3>💼 Objetivos Profissionais</h3>
+                <p>Atuar na Area de desenvolvimento tendo foco em produtos para o ramo automotivo</p>
+            </div>
+
+            <div class="card">
+                <h3>⚡ Áreas de Interesse</h3>
+                <p>
+                    · Desenvolvimento de Software<br>
+                    · Manutenção de Hardware<br>
+                    · Investimentos <br>
+                    · Mecanica Automotiva
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- CURRÍCULO -->
+<section id="curriculo">
+    <div class="container">
+        <h2>Currículo</h2>
+        <div class="resume-grid">
+
+            <div>
+                <h3>Formação Acadêmica</h3>
+                <div class="resume-item">
+                    <h4>Desenvolvimento de Software Multiplataforma</h4>
+                    <p class="period">Fatec Profº Jessen Vidal · 2025 – cursando</p>
+                    <p></p>
+                </div>
+                <div class="resume-item">
+                    <h4>Redes de Computadores</h4>
+                    <p class="period">Escola SENAI Santos Dumont · 2020 – 2021</p>
+                    <p></p>
+                </div>
+               <div class="resume-item">
+                    <h4>Ensino Médio</h4>
+                    <p class="period">E.E. Profª Lourdes Maria de Camargo · 2017 – 2019</p>
+                    <p></p>
+                </div>
+
+                <h3>Cursos Complementares</h3>
+                <div class="resume-item">
+                    <h4> Fundamentos de Programação em C# </h4>
+                    <p class="period">Escola SENAI Santos Dumont · 2022</p>
+                    <p>Intodrução e conceitos básicos da Programação em C#</p>
+                </div>
+
+            </div>
+
+            <div>
+                <h3>Certificações</h3>
+                <div class="resume-item">
+                    <h4> Escola de Inovadores </h4>
+                    <p class="period"> Centro Paula Souza · 2025</p>
+                    <p>Curso Realizado através da plataforma Inova-CPS visando influenciar o empreendedorismo e a busca por inovação no mercado de trabalho</p>
+                </div>
+                <div class="resume-item">
+                    <h4> Intodrução ao SCRUM </h4>
+                    <p class="period">Fundação Getulio Vargas · 2025</p>
+                    <p>Curso oferecido pela Fundação Getúlio Vargas (FGV) onde foram apresentados todos os principais fundamentos das metodologias ágeis com maior foco no modelo SCRUM </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- PROJETOS API -->
+<section id="projetos">
+    <div class="container">
+        <h2>Projetos API</h2>
+        <div class="projects-grid">
+
+            <div class="project-card" onclick="openModal(0)">
+                <div class="project-header">
+                    <span class="project-semester">2025 - 2 · 1º Semestre</span>
+                    <h3>API CodeWave</h3>
+                    <p>Fatec / Fernando Massanori</p>
+                </div>
+                <div class="project-body">
+                    <p class="project-label">Problema</p>
+                    <p>[Resumo do problema]</p>
+                    <p class="project-label">Tecnologias</p>
+                    <div class="tags">
+                        <span class="tag"> HTML </span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">Pandas</span>
+                       <span class="tag">Plotly</span>
+                       <span class="tag">Mysql</span>                  
+                    </div>
+                </div>
+                <div class="project-footer">
+                    <a href="https://github.com/guilhermefpo/CodeWave-1DSM-API" target="_blank" onclick="event.stopPropagation()">🔗 Repositório</a>
+                    <span>Clique para detalhes</span>
+                </div>
+            </div>
+
+            <div class="project-card" onclick="openModal(1)">
+                <div class="project-header">
+                    <span class="project-semester">2026-1 · 2º Semestre</span>
+                    <h3> Janosys SIGNA </h3>
+                    <p>Akaer - Empresa Aeronautica</p>
+                </div>
+                <div class="project-body">
+                    <p class="project-label">Problema</p>
+                    <p>[Resumo do problema]</p>
+                    <p class="project-label">Tecnologias</p>
+                    <div class="tags">
+                        <span class="tag"> JavaScript </span>
+                        <span class="tag"> TypeScript </span>
+                        <span class="tag"> React </span>
+                        <span class="tag"> Node.JS </span>
+                        <span class="tag"> Mysql </span>
+                        <span class="tag"> Prisma </span>
+                    </div>
+                </div>
+                <div class="project-footer">
+                    <a href="https://github.com/janosystime/Janosys-Project-1-Akaer" target="_blank" onclick="event.stopPropagation()">🔗 Repositório</a>
+                    <span>Clique para detalhes</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- MODAL -->
+<div id="modal" class="modal">
+    <div class="modal-box">
+        <button class="modal-close" onclick="closeModal()">&times;</button>
+        <div id="modalContent"></div>
+    </div>
+</div>
+
+<!-- CERTIFICADOS -->
+<section id="certificados">
+    <div class="container">
+        <h2>Certificações e Certificados</h2>
+        <div class="certs-grid">
+
+            <div class="cert-card">
+                <div class="cert-img-placeholder">📜</div>
+                <div class="cert-info">
+                    <h4>Escola de Inovadores</h4>
+                    <p class="issuer">Centro Paula Souza </p>
+                    <p class="year">2025</p>
+                </div>
+            </div>
+
+            <div class="cert-card">
+                <div class="cert-img-placeholder">📜</div>
+                <div class="cert-info">
+                    <h4>Introdução ao Scrum</h4>
+                    <p class="issuer">Fundação Getúlio Vargas</p>
+                    <p class="year">2025</p>
+                </div>
+            </div>
+
+           <!--  <div class="cert-card">
+                <div class="cert-img-placeholder">📜</div>
+                <div class="cert-info">
+                    <h4>[Nome do Certificado]</h4>
+                    <p class="issuer">[Instituição Emissora]</p>
+                    <p class="year">[Ano]</p>
+                </div>
+            </div> -->
+
+        </div>
+    </div>
+</section>
+
+<!-- EVENTOS -->
+<section id="eventos">
+    <div class="container">
+        <h2>Eventos e Atividades Extracurriculares</h2>
+        <div class="events-list">
+
+            <div class="event-item">
+                <div class="event-date"> 01/2026 </div>
+                <div class="event-body">
+                    <span class="event-type">Evento de Comunidade</span>
+                    <h4>Pyday</h4>
+                    <p> Evento realizado pela Python SJC nas instalações da ETEC Aquarius unindo profisisonais da área e estudantes da programação em Python e compartilhando experiências na área de desenvolvimento através de palestras dinâmicas e networking</p>
+                </div>
+            </div>
+
+            <div class="event-item">
+                <div class="event-date"> 2/2026 </div>
+                <div class="event-body">
+                    <span class="event-type"> Evento de Comunidade </span>
+                    <h4>JugVale - Adien </h4>
+                    <p>Evento realizado no Green Tower dentro ambiente da empresa Adyen com o objetivo de realizar uma introdução a comunidade apresentando projetos realizados utilizando linguagem de programação em java</p>
+                </div>
+            </div>
+
+            <div class="event-item">
+                <div class="event-date">[Mês Ano]</div>
+                <div class="event-body">
+                    <span class="event-type"> Evento de Empreendedorismo </span>
+                    <h4>Science & Business Connection </h4>
+                    <p> Evento Realizado no Parque de Inovação Tecnológica de São José dos Campos (PIT) onde diversas empresas e polos acadêmicos se organizaram para apresentar seus projetos, realizar palestras e dar uma visão mais ampla do mercado de trabalho tecnológico </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- CONTATO -->
+<section id="contato">
+    <div class="container">
+        <div class="contact-box">
+            <h2>Vamos nos conectar!</h2>
+            <p></p>
+            <div class="contact-links">
+                <a href="https://linkedin.com/in/tierz" class="contact-link" target="_blank">🔗 LinkedIn</a>
+                <a href="https://github.com/T13rz" class="contact-link" target="_blank">💻 GitHub</a>
+                <a href="mailto: altier.dev@gmail.com" class="contact-link">📧 E-mail</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 [Seu Nome] · Todos os direitos reservados</p>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
